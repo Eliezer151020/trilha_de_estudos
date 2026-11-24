@@ -1,0 +1,27 @@
+MEU PLANO DE ESTUDOS — VERSÃO ONLINE (SUPABASE)
+
+ARQUIVOS: index.html, style.css, script.js, online.js, config.js.
+
+1. Você já executou o SQL da etapa 9. Não precisa executá-lo novamente.
+2. No Supabase > Configurações do Projeto > Chaves de API, copie apenas a chave PUBLICÁVEL (sb_publishable_...).
+3. Abra config.js e substitua COLE_AQUI_SUA_CHAVE_PUBLICAVEL pela chave pública COMPLETA.
+   A URL do seu projeto já está preenchida. NUNCA cole sb_secret_, service_role ou senha do banco.
+4. Abra a pasta no VS Code, inicie um servidor local na porta 3000:
+   python -m http.server 3000
+   Ou no Windows, se necessário: py -m http.server 3000
+   Abra http://localhost:3000 (não use file://).
+5. Crie uma conta no próprio site, confirme o e-mail e faça login.
+6. Se o seu plano antigo tiver alterações salvas em outra origem do navegador,
+   exporte um backup JSON na versão antiga e importe após login na nova.
+7. Edite um módulo, espere aparecer 'Sincronizado na nuvem', atualize a página.
+8. Para publicar no GitHub Pages, inclua a URL HTTPS real no Supabase em
+   Authentication > URL Configuration (Site URL e Redirect URLs).
+
+IMPORTANTE: essa versão guarda o plano completo em rotinas.estado (JSONB)
+com a política RLS que você já criou. Os dados de uma conta não devem
+ficar acessíveis a outras contas. A sincronização é por salvamento e
+recarregamento da página; edições simultâneas em aparelhos diferentes
+podem sobrescrever mudanças. Guarde backups JSON periodicamente.
+
+OBS: a chave publicável não está preenchida porque a captura de tela
+mostra apenas parte dela. Isso é o único dado que você precisa adicionar.
